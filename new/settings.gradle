@@ -1,0 +1,3 @@
+
+rootProject.name = "ETHIOMarketplace"
+include(":app")
