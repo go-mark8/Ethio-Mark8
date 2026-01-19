@@ -1,1 +1,0 @@
-// BottomNavItem.kt placeholder

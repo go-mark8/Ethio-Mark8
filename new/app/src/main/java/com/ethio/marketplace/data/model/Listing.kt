@@ -1,1 +1,0 @@
-// Listing model placeholder
