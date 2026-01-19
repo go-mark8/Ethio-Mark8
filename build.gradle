@@ -1,14 +1,10 @@
-// Top-level build.gradle file for ETHIOMarketplace
-
 buildscript {
     repositories {
         google()
         mavenCentral()
     }
     dependencies {
-        // Android Gradle plugin
         classpath 'com.android.tools.build:gradle:8.1.1'
-        // Google Services plugin
         classpath 'com.google.gms:google-services:4.4.0'
     }
 }
