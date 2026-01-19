@@ -1,0 +1,18 @@
+
+<manifest package="com.ethio.marketplace">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application android:label="ETHIO🛍" android:theme="@style/Theme.Material3.DayNight.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <service android:name=".notifications.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>
