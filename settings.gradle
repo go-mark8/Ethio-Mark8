@@ -1,25 +1,20 @@
-// Top-level build.gradle file for ETHIOMarketplace
+// settings.gradle for ETHIOMarketplace
 
-buildscript {
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
     }
-    dependencies {
-        // Android Gradle plugin
-        classpath 'com.android.tools.build:gradle:8.1.1'
-        // Google Services plugin
-        classpath 'com.google.gms:google-services:4.4.0'
-    }
 }
 
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
-
-task clean(type: Delete) {
-    delete rootProject.buildDir
-}
+rootProject.name = "ETHIOMarketplace"
+include(":app")
