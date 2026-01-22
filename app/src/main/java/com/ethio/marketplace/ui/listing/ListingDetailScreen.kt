@@ -1,1 +1,0 @@
-// ListingDetailScreen placeholder
