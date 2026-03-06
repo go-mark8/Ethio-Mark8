@@ -1,0 +1,12 @@
+{
+  "dart.previewFlutterUiGuides": true,
+  "dart.showTodos": true,
+  "editor.formatOnSave": true,
+  "editor.rulers": [80,120],
+  "files.exclude": {
+    "**/*.g.dart": true,
+    "**/*.freezed.dart": true
+  },
+  "dart.flutterHotReloadOnSave": "all",
+  "dart.openDevTools": "flutter"
+}
